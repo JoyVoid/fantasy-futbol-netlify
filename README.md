@@ -1,4 +1,5 @@
 # PlayerApp
+link to live site hosted via netlify: https://heroic-trifle-8a88ba.netlify.app/dashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
