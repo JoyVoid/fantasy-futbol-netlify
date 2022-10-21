@@ -1,4 +1,7 @@
 export interface Player {
     id: number;
-    name:string
+    name:string;
+    team: string;
+    position: string;
+    salary: number
 }
