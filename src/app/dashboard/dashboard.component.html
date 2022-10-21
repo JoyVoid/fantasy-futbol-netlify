@@ -1,7 +1,21 @@
-<h2>Top Players</h2>
-<div class="playerss-menu">
-  <a *ngFor="let player of players"
-    routerLink="/detail/{{player.id}}">
-    {{player.name}}
-  </a>
-</div>
+<h1>All Players</h1>
+<table class="table" id="playertable">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">NAME</th>
+      <th scope="col">TEAM</th>
+      <th scope="col">POSITION</th>
+      <th scope="col">SALARY</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let player of players; let i = index">
+    <td>{{player.id}}</td>
+    <td>{{player.name}}</td>
+    <td>{{player.team}}</td>
+    <td>{{player.position}}</td>
+    <td>{{player.salary}}</td>
+  </tr>
+</tbody>
+</table>
